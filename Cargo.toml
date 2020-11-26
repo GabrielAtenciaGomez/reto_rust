@@ -1,0 +1,19 @@
+[package]
+name = "Reto"
+version = "0.1.0"
+authors = ["Gabriel Atencia"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde ="1.0"
+serde_json="1.0"
+serde_derive="1.0"
+curl = "0.4.34"
+reqwest = "0.10.9" 
+hyper = "0.13"
+futures = "0.3"
+http ="0.2.1"
+isahc = { version = "0.9.13", features = ["json"] }
+anyhow = "1.0.34"
